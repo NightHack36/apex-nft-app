@@ -30,6 +30,11 @@ build/
 local.properties
 *.iml
 
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
 # node.js
 #
 node_modules/
@@ -37,11 +42,6 @@ package-lock.json # include if you are using npm - don't use both yarn and npm
 npm-debug.log
 yarn-error.log
 yarn.lock # include if you are using yarn - don't use both npm and yarn
-
-# BUCK
-buck-out/
-\.buckd/
-*.keystore
 
 # Fastlane
 #
@@ -59,3 +59,5 @@ buck-out/
 
 .expo
 .env.example
+.env
+.env.sample
