@@ -16,8 +16,6 @@ import FormField from "./FormField";
 
 export default function RegisterForm() {
   function onSubmitHandler(values) {
-    console.log(values);
-    // https://reactnative.dev/docs/alert
     Alert.alert(
       "Register Successfully!",
       "Form data: " + JSON.stringify(values)
